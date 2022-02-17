@@ -7,6 +7,7 @@ const Container = styled.div`
     height: 100vh;
     display: flex;
     position: relative;
+    overflow: hidden;
 
 `;
 
@@ -30,6 +31,7 @@ const Arrow = styled.div`
 
 const Wrapper = styled.div`
     height: 100%;
+    display: flex;
 `;
 
 const Slide = styled.div`
@@ -85,6 +87,26 @@ const Slider = () => {
                     </ImgContainer>
                     <InfoContainer>
                         <Title>SUMMER SALE</Title>
+                        <Desc>DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.</Desc>
+                        <Button>SHOP NOW</Button>
+                    </InfoContainer>
+                </Slide>
+                <Slide>
+                    <ImgContainer>
+                        <Image src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=420&q=80" />
+                    </ImgContainer>
+                    <InfoContainer>
+                        <Title>WINTER SALE</Title>
+                        <Desc>DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS</Desc>
+                        <Button>SHOP NOW</Button>
+                    </InfoContainer>
+                </Slide>
+                <Slide>
+                    <ImgContainer>
+                        <Image src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=420&q=80" />
+                    </ImgContainer>
+                    <InfoContainer>
+                        <Title>POPULAR SALE</Title>
                         <Desc>DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS</Desc>
                         <Button>SHOP NOW</Button>
                     </InfoContainer>

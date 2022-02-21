@@ -50,6 +50,7 @@ const Center = styled.div`
 
 const Logo = styled.h1`
     font-weight: bold;
+    ${mobile({ fontSize: "24px" })}
 `;
 
 const Right = styled.div`
@@ -57,6 +58,7 @@ const Right = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    ${mobile({ flex: 2, justifyContent: "center" })}
     
 `;
 
@@ -64,6 +66,7 @@ const MenuItem = styled.div`
     font-size: 14px;
     cursor: pointer;
     margin-left: 25px;
+    ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
 
 const Navbar = () => {
@@ -78,7 +81,7 @@ const Navbar = () => {
                 </SearchContainer>
             </Left>
             <Center>
-                <Logo>Pearlicia Lux</Logo>
+                <Logo>Lishia</Logo>
             </Center>
             <Right>
                 <MenuItem>REGISTER</MenuItem>

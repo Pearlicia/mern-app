@@ -2,7 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is an ecommerce website built with react, nodejs, mongodb, styled-components and stripe
+This project is an ecommerce website built with
+redux, react, nodejs, mongodb, styled-components and stripe
 
 ## Available Scripts
 
